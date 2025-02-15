@@ -9,14 +9,11 @@ A browser-based drawing application inspired by the classic Etch-a-Sketch toy, b
 - Grid reset button to clear the drawing
 - Customizable grid size (up to 100x100)
 
-### Planned Features
-- Different drawing modes (rainbow, shader, etc.)
-
 ## How to Use
-1. Open the application in your browser
-2. Move your cursor over the grid to draw
-3. Click 'reset' button to clear the drawing
-4. Click 'change size' button to adjust grid dimensions
+1. Open the application in your browser 🔎
+2. Move your cursor over the grid to draw 🎨
+3. Click 'reset' button to clear the drawing ⬜
+4. Click 'change size' button to adjust grid dimensions↗️
 
 ## Technologies Used
 - HTML5
@@ -24,7 +21,7 @@ A browser-based drawing application inspired by the classic Etch-a-Sketch toy, b
 - Vanilla JavaScript
 
 ## Project Status
-🚧 In Development
+✅ Finished
 
 ## Contributing
 Feel free to fork this project and submit your contributions through pull requests.

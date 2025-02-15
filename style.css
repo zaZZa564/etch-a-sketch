@@ -1,14 +1,40 @@
+:root {
+  --primary-color: rgb(244, 238, 255);
+  --secondary-color: rgb(220, 214, 247);
+  --background-color: rgb(166, 177, 225);
+  --hover-color: rgb(66, 72, 116);
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'Roboto', sans-serif;
+}
+
 #container {
   display: grid;
   gap: 1px;
   width: 500px;
   height: 500px;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid var(--hover-color);
 }
 
 .grid-item {
-  background-color: white;
-  border: 1px solid #ddd;
+  background-color: var(--primary-color);
+  border: 1px solid var(--secondary-color);
   aspect-ratio: 1;
+}
+.buttonContainer {
+  display: flex;
+}
+button {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: var(--hover-color);
+  background-color: var(--primary-color);
+  border: 4px solid var(--hover-color);
+  border-radius: 24px;
 }

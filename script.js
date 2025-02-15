@@ -9,8 +9,8 @@ function createGrid(size = 16) {
     container.appendChild(div);
 
     div.addEventListener('mouseenter', () => {
-      div.style.backgroundColor = '#333';
-      div.style.border = '1px solid black';
+      div.style.backgroundColor = 'var(--hover-color)';
+      div.style.border = '1px solid var(--hover-color)';
     });
   }
 }
