@@ -1,0 +1,18 @@
+#container {
+  display: grid;
+  gap: 1px;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  aspect-ratio: 1;
+}
+
+.grid-item:hover {
+  background-color: #333;
+}
