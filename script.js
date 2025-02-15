@@ -7,6 +7,11 @@ function createGrid(size = 16) {
     const div = document.createElement('div');
     div.classList.add('grid-item');
     container.appendChild(div);
+
+    div.addEventListener('mouseenter', () => {
+      div.style.backgroundColor = '#333';
+      div.style.border = '1px solid black';
+    });
   }
 }
 

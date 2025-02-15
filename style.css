@@ -12,7 +12,3 @@
   border: 1px solid #ddd;
   aspect-ratio: 1;
 }
-
-.grid-item:hover {
-  background-color: #333;
-}
