@@ -15,11 +15,20 @@ function createGrid(size = 16) {
   }
 }
 
-const button = document.querySelector('button');
-button.addEventListener('click', () => {
+const sizeButton = document.querySelector('.sizeButton');
+sizeButton.addEventListener('click', () => {
   let size = prompt('Choose size');
   console.log(`Size is: ${size}`);
   createGrid(size);
+});
+
+const resetButton = document.querySelector('.resetButton');
+resetButton.addEventListener('click', () => {
+  const gridItems = document.querySelectorAll('.grid-item');
+  gridItems.forEach(item => {
+    item.style.backgroundColor = 'white';
+    item.style.border = 'solid 1px #ddd';
+  });
 });
 
 createGrid();

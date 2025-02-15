@@ -1,13 +1,30 @@
-# etch-a-sketch
-creating etch-a-sketch in grid using html, css and js
+# Etch-a-Sketch
 
-planning functions:
+A browser-based drawing application inspired by the classic Etch-a-Sketch toy, built using HTML, CSS, and JavaScript.
 
-2.erase all by clicking a button
+## Features
 
-3.set custom grid size
+### Current Features
+- Drawing functionality using mouse hover
+- Grid reset button to clear the drawing
+- Customizable grid size (up to 100x100)
 
+### Planned Features
+- Different drawing modes (rainbow, shader, etc.)
 
-released functions:
+## How to Use
+1. Open the application in your browser
+2. Move your cursor over the grid to draw
+3. Click 'reset' button to clear the drawing
+4. Click 'change size' button to adjust grid dimensions
 
-1.Drawing with cursor
+## Technologies Used
+- HTML5
+- CSS3 (Grid Layout)
+- Vanilla JavaScript
+
+## Project Status
+🚧 In Development
+
+## Contributing
+Feel free to fork this project and submit your contributions through pull requests.
